@@ -41,3 +41,11 @@ a {
 a:hover {
   color: #fe8ab3;
 }
+.btn-principal {
+  background-color: #fe8ab3;
+  color: white;
+  border: 1px solid black;
+}
+button:hover {
+  color: black;
+}
