@@ -58,3 +58,30 @@ img.img-fluid {
 #tienda a:hover {
   color: black;
 }
+
+div.servicios1 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-left: 20px;
+}
+div.servicios2 {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+}
+.bc-fefacb {
+  background-color: #fefacb;
+}
+#servicios a:hover {
+  color: black;
+}
+div.img-servicios img {
+  width: 50%;
+}
+div.img-servicios {
+  display: flex;
+  justify-content: center;
+}
