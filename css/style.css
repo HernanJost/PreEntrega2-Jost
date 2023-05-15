@@ -85,3 +85,12 @@ div.img-servicios {
   display: flex;
   justify-content: center;
 }
+#newsletter div button:hover {
+  background-color: #fe8ab3;
+}
+#newsletter div input {
+  border: 2px solid #fe8ab3;
+}
+#newsletter div input::placeholder {
+  color: #fe8ab3;
+}
