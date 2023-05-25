@@ -49,9 +49,7 @@ a:hover {
 button:hover {
   color: black;
 }
-img.img-fluid {
-  width: 100%;
-}
+
 .img-fluid.img-tienda {
   height: 80%;
 }
