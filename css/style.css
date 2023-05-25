@@ -4,6 +4,27 @@
   font-family: "Poppins", sans-serif;
   box-sizing: border-box;
 }
+
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  background-color: #25d366;
+  bottom: 40px;
+  right: 40px;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 999;
+}
+i.flotante {
+  font-size: 60px;
+}
+.float:hover {
+  background-color: #28e76e;
+}
+
 header {
   background-color: #fefacb;
   display: flex;
@@ -116,15 +137,6 @@ div.img-servicios {
   height: 100%;
   object-fit: cover;
 }
-@media (max-width: 768px) {
-  .container-galeria {
-    grid-template-columns: 1fr;
-  }
-  .sobre__nosotros {
-    grid-template-columns: 1fr !important;
-    grid-template-rows: 4fr 2fr !important;
-  }
-}
 
 #sobreNosotros {
   display: grid;
@@ -138,4 +150,37 @@ div.img-servicios {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+.container__productos {
+  display: grid;
+  grid-template-columns: repeat(4, 3fr);
+  grid-template-rows: repeat(4, 3fr);
+  grid-auto-rows: 350px;
+  padding: 20px;
+  grid-gap: 10px;
+}
+.container__productos p {
+  color: #25d366;
+}
+.item-tienda {
+  position: relative;
+}
+.tienda__titulo {
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .container-galeria {
+    grid-template-columns: 1fr;
+  }
+  .sobre__nosotros {
+    grid-template-columns: 1fr !important;
+    grid-template-rows: 4fr 2fr !important;
+  }
+  .container__productos {
+    grid-template-columns: 1fr !important;
+    grid-template-rows: 1fr !important;
+  }
 }
